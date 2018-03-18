@@ -3,20 +3,82 @@
 	font-family: 'Playfair Display', serif;	
 	font-size: 60px;
 	margin-top:2em;
+	color: #7A6174;
 }
 
 #line{
 	font-family: 'Jura', sans-serif;
 	font-size: 30px;
+	color: #7A6174;
 	
 }
 
 .jumbotron-fluid{
 	background-color: #9B9FB5;
+
 }
 
 /*profile image*/
 img{
 	border-radius: 50%;
+}
+
+/*lines around break text*/
+.fancy {
+
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;	
+  line-height: .5;
+  text-align: center;
+  color: #7A6174;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 35px;
+  border-bottom: 1px solid #7A6174;
+  border-top: 1px solid #7A6174;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+/*about section*/
+#resume{
+	color:#7A6174;
+	border-color: #7A6174;
+	background-color: white;
+
+}
+
+#resume:hover{
+	background-color: #D1B1C8;
+}
+#about-details{
+	font-family: 'Jura', sans-serif;
+	font-size: 30px;
+	color: #7A6174;
+	margin-left: 110px;
+}
+
+#about-para{
+	font-family: 'Jura', sans-serif;
+	font-size: 20px;
+	color: #7A6174;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right:10px;
 }
 
