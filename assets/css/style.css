@@ -1,0 +1,22 @@
+/*name and description in jumbotron*/
+#name{
+	font-family: 'Playfair Display', serif;	
+	font-size: 60px;
+	margin-top:2em;
+}
+
+#line{
+	font-family: 'Jura', sans-serif;
+	font-size: 30px;
+	
+}
+
+.jumbotron-fluid{
+	background-color: #9B9FB5;
+}
+
+/*profile image*/
+img{
+	border-radius: 50%;
+}
+
