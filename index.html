@@ -14,27 +14,22 @@
 </head>
 
 <body>
-<!--nav bar -->
-<nav id = "navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Denise Appler Erazmus</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Connect</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <!--nav bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#connect">Connect</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- jumbotron-->
     <div class="jumbotron jumbotron-fluid">
         <div id="intro" class="container">
@@ -64,17 +59,32 @@
             <div class="col">
                 <p id="about-details"> About Me</p>
                 <hr style="height:1px; width:50%; color:#7A6174" />
-                <p id="about-para"><span> Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Levicorpus, nitwit blubber oddment tweak. Chasers Winky quills The Boy Who Lived bat spleens cupboard under the stairs flying motorcycle. Sirius Black Holyhead Harpies, you’ve got dirt on your nose.</span></p>
-            </div>
-            <div class="col">
-                <p id="about-details"> What I do </p>
-                <hr style="height:1px; width:50%; color:#7A6174" />
-                <p id="about-para"> Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Levicorpus, nitwit blubber oddment tweak. Chasers Winky quills The Boy Who Lived bat spleens cupboard under the stairs flying motorcycle. Sirius Black Holyhead Harpies, you’ve got dirt on your nose. </p>
+                <p id="about-para"><span> I am a front-end web developer with effective communication and time management skills. Prior to entering the world of web development, I had a long career in the insurnace industry as a life insurance underwriter and paralegal. This history has given me the ability to communicate complex ideas effectively with a client and work with that client to meet a time specific goal.</span></p>
             </div>
             <div class="col">
                 <p id="about-details"> Skills </p>
                 <hr style="height:1px; width:50%; color:#7A6174" />
-                <p id="about-para"> Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Levicorpus, nitwit blubber oddment tweak. Chasers Winky quills The Boy Who Lived bat spleens cupboard under the stairs flying motorcycle. Sirius Black Holyhead Harpies, you’ve got dirt on your nose. </p>
+                <ul id="about-para-list">
+                    <li> HTML/CSS </li>
+                    <li> Bootstrap </li>
+                    <li> Javascript </li>
+                    <li> jQuery </li>
+                    <li> react.js </li>
+                    <li> responsive web design </li>
+                    <li> Github </li>
+                    <li> Command Line </li>
+                </ul>
+            </div>
+            <div class="col">
+                <p id="about-details"> Basic knowlegde </p>
+                <hr style="height:1px; width:50%; color:#7A6174" />
+                <ul id="about-para-list">
+                    <li> express.js </li>
+                    <li> node.js </li>
+                    <li> MySQL </li>
+                    <li> MongoDB </li>
+                    <li> ES6 </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -90,9 +100,12 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <img id="port" src="assets/images/pic.jpg">
+                <img id="port" src="assets/images/logo.png">
                 <br/>
                 <br/>
+                <div class="row justify-content-center">
+                    <p> The Hungry Spectator</p>
+                </div>
                 <div class="row justify-content-center">
                     <button id="port-btn" type="button" class="btn btn-outline">Code</button>
                     <button id="port-btn" type="button" class="btn btn-outline">Live</button>
@@ -100,9 +113,12 @@
                 <br/>
             </div>
             <div class="col-sm">
-                <img id="port" src="assets/images/pic.jpg">
+                <img id="port-2" src="assets/images/psychicimage.jpg">
                 <br/>
                 <br/>
+                <div class="row justify-content-center">
+                	<p> The Psychic Game</p>
+                </div>
                 <div class="row justify-content-center">
                     <button id="port-btn" type="button" class="btn btn-outline">Code</button>
                     <button id="port-btn" type="button" class="btn btn-outline">Live</button>
@@ -110,11 +126,13 @@
                 <br/>
             </div>
             <div class="col-sm">
-                <img id="port" src="assets/images/pic.jpg">
+                <img id="port-2" src="assets/images/jem.jpg">
                 <br/>
                 <br/>
                 <div class="row justify-content-center">
-                    <button id="port-btn" type="button" class="btn btn-outline">Code</button>
+                <p> Jem Collector</p>
+                </div>
+                <div class="row justify-content-center">                    <button id="port-btn" type="button" class="btn btn-outline">Code</button>
                     <button id="port-btn" type="button" class="btn btn-outline">Live</button>
                 </div>
                 <br/>
@@ -124,71 +142,72 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <img id="port" src="assets/images/pic.jpg">
+                <img id="port-2" src="assets/images/burger.jpg">
                 <br/>
                 <br/>
                 <div class="row justify-content-center">
+                <p> Eat-A-Burger</p>
+                </div>
+                <div class="row justify-content-center">	
                     <button id="port-btn" type="button" class="btn btn-outline">Code</button>
                     <button id="port-btn" type="button" class="btn btn-outline">Live</button>
                 </div>
                 <br/>
+            </div>
+
+            <div class="col-sm">
+       
             </div>
             <div class="col-sm">
-                <img id="port" src="assets/images/pic.jpg">
+                <img id="port" src="assets/images/constructor.jpg">
                 <br/>
                 <br/>
+                <div class="row justify-content-center">
+                <p> Constructors Hangman</p>
+                </div>	
                 <div class="row justify-content-center">
                     <button id="port-btn" type="button" class="btn btn-outline">Code</button>
                     <button id="port-btn" type="button" class="btn btn-outline">Live</button>
                 </div>
                 <br/>
             </div>
-            <div class="col-sm">
-                <img id="port" src="assets/images/pic.jpg">
-                <br/>
-                <br/>
-                <div class="row justify-content-center">
-                    <button id="port-btn" type="button" class="btn btn-outline">Code</button>
-                    <button id="port-btn" type="button" class="btn btn-outline">Live</button>
-                </div>
-                <br/>
-            </div>
+            
         </div>
     </div>
     <!--contact-->
-    <div id="about" class="container-fluid">
+    <div id="connect" class="container-fluid">
         <div class="col">
             <p class="fancy"><span>Contact</span></p>
             <br/>
         </div>
         <br/>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <p id="about-details"> Where to find me. </p>
-                <hr style="height:1px; width:50%; color:#7A6174" />
-                <p> 824 Hammerschmidt Ave</p>
-                <p> Lombard, IL 60147 </p>
-                <br/>
-                <p> phone: (773) 791-9034</p>
-                <p> email: denise.erazmus@gmail.com </p>
-            </div>
-            
-            <div class="col">
-                <p id="about-details"> Lets connect. </p>
-                <hr style="height:1px; width:50%; color:#7A6174" />
-                <p> linkedin </p>
-                <p> GitHub </p>
-                <p> Twitter </p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p id="about-details"> Where to find me. </p>
+                    <hr style="height:1px; width:50%; color:#7A6174" />
+                    <p> Denise Appler Erazmus
+                        <p> 824 Hammerschmidt Ave</p>
+                        <p> Lombard, IL 60147 </p>
+                        <br/>
+                        <p> phone: (773) 791-9034</p>
+                        <p> email: denise.erazmus@gmail.com </p>
+                </div>
+                <div class="col">
+                    <p id="about-details"> Lets connect. </p>
+                    <hr style="height:1px; width:50%; color:#7A6174" />
+                    <p> linkedin </p>
+                    <p> GitHub </p>
+                    <p> Twitter </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
 <br/>
-        <!--bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </html>
