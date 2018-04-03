@@ -206,3 +206,17 @@ body{
 	background-color: #D1B1C8;
 }
 
+/*publications*/
+#publication{
+	font-family: 'Jura', sans-serif;
+	font-size: 30px;
+	color: #7A6174;
+}
+
+
+/*connect*/
+#connect{
+	font-family: 'Jura', sans-serif;
+	font-size: 20px;
+	color: #7A6174;
+}
