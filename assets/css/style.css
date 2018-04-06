@@ -216,11 +216,22 @@ body{
 
 /*connect*/
 #connect{
-	font-family: 'Jura', sans-serif;
-	font-size: 20px;
-	color: #7A6174;
+	font-family: 'Playfair Display', serif;	
+	font-size: 30px;
+	color: #7A6174;;
 }
 
+#connect-details{
+	font-family: 'Jura', sans-serif;
+	font-size: 30px;
+	color: #7A6174
+}
+
+#media{
+	margin-right: 15px;
+	height: 80px;
+	max-width: 80px;
+}
 
 #me{
 	border-radius: 50%;
