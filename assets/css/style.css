@@ -36,7 +36,9 @@ body{
 /*profile image*/
 #pic{
 	border-radius: 50%;
+	max-width: 300px;
 }
+
 
 /*lines around break text*/
 .fancy {
