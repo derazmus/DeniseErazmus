@@ -240,3 +240,16 @@ body{
 	height: 50px;
 	max-width: 50px;
 }
+
+/*at 1024*/
+@media only screen and (max-width: 1024px){
+	 #port, #port-2 {
+		max-width: 250px;
+	}
+
+	#name {
+		font-size: 60px;
+		margin-top:6em;
+	}
+
+}
